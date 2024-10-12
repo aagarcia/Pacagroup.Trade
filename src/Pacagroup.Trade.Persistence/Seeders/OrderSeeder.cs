@@ -17,7 +17,11 @@ namespace Pacagroup.Trade.Persistence.Seeders
                     TransactTime = DateTime.Now,
                     Quanty = 1000,
                     Type = Domain.Enums.OrderType.LIMIT,
-                    Price = 522.99M
+                    Price = 522.99M,
+                    Currency = "USD",
+                    Text = "",
+                    Created = DateTime.Now,
+                    CreatedBy = "system"
                 },
                 new Order
                 {
@@ -27,7 +31,11 @@ namespace Pacagroup.Trade.Persistence.Seeders
                     TransactTime = DateTime.Now,
                     Quanty = 300,
                     Type = Domain.Enums.OrderType.LIMIT,
-                    Price = 424.30M
+                    Price = 424.30M,
+                    Currency = "USD",
+                    Text = "",
+                    Created = DateTime.Now,
+                    CreatedBy = "system"
                 },
                 new Order
                 {
@@ -37,7 +45,11 @@ namespace Pacagroup.Trade.Persistence.Seeders
                     TransactTime = DateTime.Now,
                     Quanty = 400,
                     Type = Domain.Enums.OrderType.MARKET,
-                    Price = 0
+                    Price = 0,
+                    Currency = "USD",
+                    Text = "",
+                    Created = DateTime.Now,
+                    CreatedBy = "system"
                 },
                 new Order
                 {
@@ -47,7 +59,11 @@ namespace Pacagroup.Trade.Persistence.Seeders
                     TransactTime = DateTime.Now,
                     Quanty = 800,
                     Type = Domain.Enums.OrderType.MARKET,
-                    Price = 0
+                    Price = 0,
+                    Currency = "USD",
+                    Text = "",
+                    Created = DateTime.Now,
+                    CreatedBy = "system"
                 }
             );
         }

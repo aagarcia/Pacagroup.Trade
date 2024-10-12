@@ -15,6 +15,10 @@ namespace Pacagroup.Trade.Domain.Entities
 
         public OrderType Type { get; set; }
 
-         public decimal Price { get; set; }
+        public decimal Price { get; set; }
+
+        public string Currency { get; set; }
+
+        public string? Text { get; set; }
     }
 }

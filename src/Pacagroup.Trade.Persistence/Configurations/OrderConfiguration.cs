@@ -38,6 +38,29 @@ namespace Pacagroup.Trade.Persistence.Configurations
             builder.Property(x => x.Price)
                 .HasPrecision(9, 4)
                 .IsRequired();
+
+            builder.Property(x => x.Currency)
+                .HasMaxLength(50)
+                .IsRequired()
+                .HasDefaultValue("USD");
+
+            builder.Property(x => x.Text)
+                .HasMaxLength(200)
+                .IsRequired(false);
+
+            builder.Property(x => x.Created)
+                .IsRequired();
+
+            builder.Property(x => x.CreatedBy)
+                .HasMaxLength(120)
+                .IsRequired();
+
+            builder.Property(x => x.LastModified)
+                .IsRequired(false);
+
+            builder.Property(x => x.LastModifiedBy)
+                .HasMaxLength(120)
+                .IsRequired(false);
         }
     }
 }
