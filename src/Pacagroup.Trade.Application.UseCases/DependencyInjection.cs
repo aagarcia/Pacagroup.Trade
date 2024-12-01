@@ -1,6 +1,8 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using System.Reflection;
+﻿using FluentValidation;
 using MediatR;
+using Microsoft.Extensions.DependencyInjection;
+using Pacagroup.Trade.Application.UseCases.Commons.Behaviors;
+using System.Reflection;
 
 namespace Pacagroup.Trade.Application.UseCases
 {
@@ -11,7 +13,11 @@ namespace Pacagroup.Trade.Application.UseCases
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddMediatR(cfg => {
                 cfg.RegisterServicesFromAssemblies(Assembly.GetExecutingAssembly());
+                cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(LoggingBehaviour<,>));
+                cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>));
             });
+
+            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 
             return services;
         }

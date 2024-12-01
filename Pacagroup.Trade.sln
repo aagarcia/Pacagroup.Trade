@@ -11,17 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraest
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F154082B-937E-49C6-90C6-D8142339D46E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacagroup.Trade.Domain", "src\Pacagroup.Trade.Domain\Pacagroup.Trade.Domain.csproj", "{B567D03E-B5B2-45E9-A984-08AEF4C30AEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pacagroup.Trade.Domain", "src\Pacagroup.Trade.Domain\Pacagroup.Trade.Domain.csproj", "{B567D03E-B5B2-45E9-A984-08AEF4C30AEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacagroup.Trade.Persistence", "src\Pacagroup.Trade.Persistence\Pacagroup.Trade.Persistence.csproj", "{9E1098D0-13F4-47D9-9B6C-B7C35EF6B5BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pacagroup.Trade.Persistence", "src\Pacagroup.Trade.Persistence\Pacagroup.Trade.Persistence.csproj", "{9E1098D0-13F4-47D9-9B6C-B7C35EF6B5BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacagroup.Trade.Infrastructure", "src\Pacagroup.Trade.Infrastructure\Pacagroup.Trade.Infrastructure.csproj", "{5FB5CC6F-E01A-435E-B921-B0AEC0939488}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pacagroup.Trade.Infrastructure", "src\Pacagroup.Trade.Infrastructure\Pacagroup.Trade.Infrastructure.csproj", "{5FB5CC6F-E01A-435E-B921-B0AEC0939488}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacagroup.Trade.Application.Interfaces", "src\Pacagroup.Trade.Application.Interfaces\Pacagroup.Trade.Application.Interfaces.csproj", "{A469AE74-9105-401C-B591-C77ED4C05EA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pacagroup.Trade.Application.Interfaces", "src\Pacagroup.Trade.Application.Interfaces\Pacagroup.Trade.Application.Interfaces.csproj", "{A469AE74-9105-401C-B591-C77ED4C05EA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacagroup.Trade.Application.UseCases", "src\Pacagroup.Trade.Application.UseCases\Pacagroup.Trade.Application.UseCases.csproj", "{AABD0C6A-63FE-467F-B57A-D8BBE6A02E4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pacagroup.Trade.Application.UseCases", "src\Pacagroup.Trade.Application.UseCases\Pacagroup.Trade.Application.UseCases.csproj", "{AABD0C6A-63FE-467F-B57A-D8BBE6A02E4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pacagroup.Trade.Services.gRPC", "src\Pacagroup.Trade.Services.gRPC\Pacagroup.Trade.Services.gRPC.csproj", "{0FAC2AA0-91D1-494F-A9E2-160423C74327}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pacagroup.Trade.Services.gRPC", "src\Pacagroup.Trade.Services.gRPC\Pacagroup.Trade.Services.gRPC.csproj", "{0FAC2AA0-91D1-494F-A9E2-160423C74327}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

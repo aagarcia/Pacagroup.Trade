@@ -5,7 +5,7 @@ namespace Pacagroup.Trade.Domain.Events
 {
     public class OrderUpdatedEvent : BaseEvent
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         public int Quanty { get; set; }
 

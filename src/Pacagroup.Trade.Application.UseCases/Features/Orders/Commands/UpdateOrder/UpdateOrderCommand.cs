@@ -4,7 +4,7 @@ namespace Pacagroup.Trade.Application.UseCases.Features.Orders.Commands.UpdateOr
 {
     public sealed record UpdateOrderCommand : IRequest<bool>
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         public int Quanty { get; set; }
 
