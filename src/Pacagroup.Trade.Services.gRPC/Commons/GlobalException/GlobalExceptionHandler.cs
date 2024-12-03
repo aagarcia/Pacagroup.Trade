@@ -1,6 +1,5 @@
 ﻿using Grpc.Core;
 using Grpc.Core.Interceptors;
-using Microsoft.IdentityModel.Tokens;
 using Pacagroup.Trade.Application.UseCases.Commons.Exceptions;
 using Pacagroup.Trade.Services.gRPC.Protos;
 
